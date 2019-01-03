@@ -24,14 +24,14 @@ public class Reverse_PalindromeTest {
     public void PalindromeCheck(){
         String value="12321";
         String expectedValue="12321 is a Palindrome";
-        String actualValue=object.Reverse_String(value);
+        String actualValue=object.Palindrome(value);
         assertEquals(expectedValue,actualValue);
     }
     @Test
     public void NotAPalindromeCheck(){
         String value="12345";
         String expectedValue="12345 is not a Palindrome";
-        String actualValue=object.Reverse_String(value);
+        String actualValue=object.Palindrome(value);
         assertEquals(expectedValue,actualValue);
     }
 }
